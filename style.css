@@ -1,0 +1,32 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    min-height: 300px;
+    padding: 20px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    color: rgb(79, 79, 79);
+}
+.progress {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(175, 252, 112);
+    color: #818181;
+}
+.progress-bar {
+    width: 100%;
+    border: 0.5px solid #818181;
+    border-radius: 5px;
+}
+
+.progressTitle{
+    padding: 1em;
+}   
